@@ -1,0 +1,51 @@
+body {
+    text-align: center;
+    padding: 0px 40px;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    }
+
+.ContainerData {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    justify-items: center;
+    flex-direction: column;
+    gap: 1vb;
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+}
+
+h1, h2, h3, h4 ,p{
+    color: white;
+}
+
+#myChart {
+    justify-content: center;
+}
+
+.grafico {
+    display: none; /* Inicialmente oculto */
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    justify-items: center;
+    height: 45vh;
+    padding: 10px;
+}
+
+canvas {
+    background-color: white;
+    height: 20vh;
+    
+}
+
+.bloque {
+    background-color: gray;
+    border: 1vb;
+    border-radius: 10px;
+}
